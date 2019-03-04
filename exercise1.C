@@ -3,7 +3,7 @@
 #include "TTreeReader.h"
 #include "TTreeReaderValue.h"
 
-void simpleReader() {
+void exercise1() {
    // Create a histogram for the values we read.
    auto myHist = new TH1F("h1","Histogram Exercise 1",100,-4,4);
    
